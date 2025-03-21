@@ -1,0 +1,22 @@
+{
+  "name": "erc20-viem-task",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "hardhat test",
+    "dev": "npx hardhat node",
+    "deploy": "npx hardhat run scripts/deploy.cjs --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@typechain/ethers-v6": "^0.4.0",
+    "@typechain/hardhat": "^8.0.0",
+    "ethers": "^6.8.0",
+    "hardhat": "^2.21.0",
+    "ts-node": "^10.9.1",
+    "typechain": "^8.2.0",
+    "typescript": "^5.2.2",
+    "solidity-coverage": "^0.8.1",
+    "hardhat-gas-reporter": "^1.0.8"
+  }
+}
