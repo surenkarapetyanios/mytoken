@@ -25,3 +25,6 @@ deployments/
 # OS junk files
 .DS_Store
 Thumbs.db
+
+package-lock.json
+frontend/package-lock.json
