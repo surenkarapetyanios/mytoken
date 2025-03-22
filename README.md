@@ -25,6 +25,21 @@ Then open your browser at:
 ```
 http://localhost:5173
 ```
+---
+
+## MetaMask Localhost Setup (Hardhat)
+
+1. Open MetaMask → Networks → Add Network manually
+2. Fill in the following:
+   - **Network Name**: Hardhat Localhost
+   - **New RPC URL**: http://127.0.0.1:8545
+   - **Chain ID**: 31337
+   - **Currency Symbol**: ETH
+3. Save and switch to the Hardhat Localhost network
+4. Import a private key from one of the test accounts printed by `npx hardhat node`
+5. You should now see 10000 ETH in that account
+
+---
 
 Make sure to set the deployed token address in `frontend/.env`:
 ```env
